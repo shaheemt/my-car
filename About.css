@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}header{
+    background-color: black;
+}.navbarNav{
+    /* float: right; */
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+}.collapse{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}.nav-item{
+    font-weight: 20px;
+    padding-right:50px ;
+}.nav-link{
+    color:aquamarine;
+    font-size: 20px;
+}.nav-link:hover{
+    color: darkgreen;
+}.nav-item:last-child{
+    padding-right:10em;
+}.navbar-brand{
+    color: aliceblue;
+    padding-left: 8rem;
+    
+}.logo{
+    height: 30px;
+    width: 90px;
+    padding-left: 20px;
+    /* padding-left: 40px; */
+}
+
+
+/* main */
+
+.main{
+    background-color: black;
+}.main.carousel{
+    height: 100vh;
+}.main img{
+    height: 95vh;
+}
+
+/* section 1 */
+
+.section-1{
+    width: 100%;
+    background: black;
+}.cover{
+    width: 100%;
+    height: 65vmin;
+    /* background-color: gray; */
+    background: url(../assets/happy1.jpg);
+    background-size: 100%;
+    position: relative;
+}.content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    color: aquamarine;
+    padding-top: 17vmin;
+}.content:hover{
+    color: darkgreen;
+}.numbers{
+    margin-top: -15vmin;
+}.rect{
+    position: relative;
+    background-color: #fff;
+    width: 12rem;
+    height: 10rem;
+    padding-top: 3vmin;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 1px 0px 60px 0px rgb(70, 45, 128);
+}.rect h1{
+    font-size: 3rem;
+    color: aquamarine; 
+}.rect h1:hover{
+    color: darkgreen;
+}.rect p{
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+.section-2{
+    background: black;
+}.section-2 h1{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 24vmin;
+    color: aquamarine;
+}.section-2 h1:hover{
+    color: darkgreen;
+}.section-2 .row{
+    padding-top: 13vmin;
+    text-align: center;
+
+}.single-box h3{
+   color: aquamarine;
+   text-align: center;
+   padding-top: 20px;
+}.single-box h3:hover{
+    color: darkgreen;
+}.single-box h3:hover{
+    color: darkgreen;
+
+}.img-area img{
+    /* position: absolute; */
+    width: 45vmin;
+    height: 35vmin;
+    padding: 10px;
+    border-radius: 2em;
+    background-color: aquamarine;
+    /* height: 100%; */
+}.img-area img:hover{
+    background-color: darkgreen;
+}.img-area{
+    /* background-color: rgb(34, 31, 31); */
+    padding-top: 20px;
+}
+
+.section-3{
+    background: black;
+}.section-3 h1{
+    color: aquamarine; 
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}.section-3 h1:hover{
+    color: darkgreen;
+}.section-3 p{
+    color: #fff;
+}.section-3 img{
+    text-align: center;
+    justify-content: center;
+    width: 95%;
+    height: 65vmin;
+}
+
+.section-4{
+    background: black;
+}.section-4 h1{
+    color: aquamarine; 
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+    border-radius: 50%;
+    width: 90%;
+    padding: 10px;
+}.section-4 h1:hover{
+    color: darkgreen;
+}.collection{
+    padding-top: 30vmin;
+}.card img{
+    height: 250px;
+}.card{
+    background: black !important;
+    box-shadow: 15px 15px 15px #353333;
+   
+}.bord{
+    padding-top:20vmin;
+}.card h5{
+    text-align: center;
+    color: aquamarine; 
+}.card h5:hover{
+    color: darkgreen;
+}.card a{
+    border-radius: 20px;
+    background-color:  aquamarine; 
+    color: black;
+    margin-top: 5px;
+}
+
+
+.section-5{
+    background-color: black;
+}
+.slider-1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#carouselExampleInterval{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}.carousel-inner{
+    padding: 10px;
+}#carouselExampleInterval img{
+    text-align: center;
+    /* height: 100%; */
+    width: 100%;
+    padding-bottom: 10px;
+} 
+.head-1{
+    padding: 27vmin 0 15vmin 0;
+    text-align: center;
+    color: aquamarine;
+}.head-1:hover{
+    color: darkgreen;
+}
+/* .click{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0;
+}.click p{
+    color: black;
+    background: aquamarine;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0 80px;
+} */
